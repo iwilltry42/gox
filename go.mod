@@ -1,4 +1,4 @@
-module github.com/mitchellh/gox
+module github.com/iwilltry42/gox
 
 go 1.19
 

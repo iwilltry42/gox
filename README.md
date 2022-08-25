@@ -10,7 +10,7 @@ To install Gox, please use `go get`. We tag versions so feel free to
 checkout that tag and compile.
 
 ```
-$ go install github.com/mitchellh/gox@latest
+$ go install github.com/iwilltry42/gox@latest
 ...
 $ gox -h
 ...
@@ -27,22 +27,22 @@ by default and build for every platform by default:
 $ gox
 Number of parallel builds: 4
 
--->      darwin/386: github.com/mitchellh/gox
--->    darwin/amd64: github.com/mitchellh/gox
--->       linux/386: github.com/mitchellh/gox
--->     linux/amd64: github.com/mitchellh/gox
--->       linux/arm: github.com/mitchellh/gox
--->     freebsd/386: github.com/mitchellh/gox
--->   freebsd/amd64: github.com/mitchellh/gox
--->     openbsd/386: github.com/mitchellh/gox
--->   openbsd/amd64: github.com/mitchellh/gox
--->     windows/386: github.com/mitchellh/gox
--->   windows/amd64: github.com/mitchellh/gox
--->     freebsd/arm: github.com/mitchellh/gox
--->      netbsd/386: github.com/mitchellh/gox
--->    netbsd/amd64: github.com/mitchellh/gox
--->      netbsd/arm: github.com/mitchellh/gox
--->       plan9/386: github.com/mitchellh/gox
+-->      darwin/386: github.com/iwilltry42/gox
+-->    darwin/amd64: github.com/iwilltry42/gox
+-->       linux/386: github.com/iwilltry42/gox
+-->     linux/amd64: github.com/iwilltry42/gox
+-->       linux/arm: github.com/iwilltry42/gox
+-->     freebsd/386: github.com/iwilltry42/gox
+-->   freebsd/amd64: github.com/iwilltry42/gox
+-->     openbsd/386: github.com/iwilltry42/gox
+-->   openbsd/amd64: github.com/iwilltry42/gox
+-->     windows/386: github.com/iwilltry42/gox
+-->   windows/amd64: github.com/iwilltry42/gox
+-->     freebsd/arm: github.com/iwilltry42/gox
+-->      netbsd/386: github.com/iwilltry42/gox
+-->    netbsd/amd64: github.com/iwilltry42/gox
+-->      netbsd/arm: github.com/iwilltry42/gox
+-->       plan9/386: github.com/iwilltry42/gox
 ```
 
 Or, if you want to build a package and sub-packages:
@@ -55,7 +55,7 @@ $ gox ./...
 Or, if you want to build multiple distinct packages:
 
 ```
-$ gox github.com/mitchellh/gox github.com/hashicorp/serf
+$ gox github.com/iwilltry42/gox github.com/hashicorp/serf
 ...
 ```
 
